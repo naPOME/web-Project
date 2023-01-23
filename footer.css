@@ -1,0 +1,67 @@
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 70%;
+    margin: auto;
+    opacity: 0.4;
+  
+   
+}
+
+footer .social-media-img{
+    background-color: #000000;
+    border-radius: 50px;
+}
+footer .social-media-img:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+footer:hover
+{
+    animation: fade 0.5s ease;
+    opacity: 0.9;
+}
+
+.social-media-img
+{
+    height: 5vh;
+}
+
+.codecell-img
+{
+    height: 1vh;
+}
+
+@keyframes fade
+{
+    0%
+    {
+        opacity: 0.2;
+    }
+
+    100%
+    {
+        opacity: 0.9;
+    }
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1295px)
+{
+    footer
+    {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    footer
+    {
+        opacity: 0.9;
+    }
+}

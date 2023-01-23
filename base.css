@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+    background-size:contain;
+    background-position: center;
+    background-color:rgb(220, 211, 211);
+    font-family: Roboto Mono;
+    color: rgba(204, 200, 215, 0);
+}
+
+
+a
+{
+    text-decoration: none;
+    color:rgb(55, 40, 90);
+}
+
+a:hover
+{
+    color: #f1f2f2;
+}
+
+.hide
+{
+    display: none;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: system-ui;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+nav{
+    display:flex;
+    width:84%;
+    margin: auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content:end;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+nav ul li a:hover{
+    
+    color:rgb(70, 68, 158);
+   
+}
+.container{
+    width: 98%;
+
+}
+.img-des{
+    display: flex;
+    padding-bottom: 100px;
+   
+}
+
+.image {
+    flex:1;
+    border:   9px solid rgba(231, 231, 231, 0.5);
+border-radius: 10px;
+margin: 80px 100px 40px 40px;
+    
+    
+    
+}
+.description:first-child{
+    margin-right: 0px;
+
+}
+.description{
+
+}
+.image img{
+    width:300px;
+   
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    
+
+}
+p span{
+    font-weight: 600;
+}
+.one{
+    font-weight: lighter;
+    font-style: italic;
+
+}
+h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
